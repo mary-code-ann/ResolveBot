@@ -1,8 +1,6 @@
 # ResolveBot
 
-Policy-grounded support agent with tools and human handoff.
-
-**Interview one-liner:** “I built a LangGraph agent that answers support tickets only from company policy (RAG), can call order/refund APIs as tools, and escalates when confidence is low — with retries and an audit trail.”
+ResolveBot is a support assistant for Northstar Gear. It reads a customer message, classifies the request, and looks up company policy before it replies. It can answer from those policies, look up or cancel an order, or open a ticket for a person when the request needs a human. Every step is recorded in an audit trail.
 
 ```
 User message
