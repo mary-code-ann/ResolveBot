@@ -1,0 +1,74 @@
+{
+  "ORD-1001": {
+    "order_id": "ORD-1001",
+    "customer": "Amina Cole",
+    "email": "amina.cole@example.com",
+    "status": "cancelled",
+    "delivered_days_ago": 5,
+    "shipped_days_ago": 8,
+    "carrier": "Northstar Logistics",
+    "tracking": "NS123456789",
+    "payment": "Visa ending 4242",
+    "items": [
+      {
+        "name": "Trail Runner Jacket",
+        "sku": "NS-JKT-01",
+        "price": 129.0
+      }
+    ]
+  },
+  "ORD-1002": {
+    "order_id": "ORD-1002",
+    "customer": "Ben Ortiz",
+    "email": "ben.ortiz@example.com",
+    "status": "shipped",
+    "delivered_days_ago": null,
+    "shipped_days_ago": 2,
+    "carrier": "USPS",
+    "tracking": "9400111899223030001234",
+    "payment": "Mastercard ending 5555",
+    "items": [
+      {
+        "name": "Summit Daypack",
+        "sku": "NS-BAG-04",
+        "price": 89.0
+      }
+    ]
+  },
+  "ORD-1003": {
+    "order_id": "ORD-1003",
+    "customer": "Priya Shah",
+    "email": "priya.shah@example.com",
+    "status": "delivered",
+    "delivered_days_ago": 45,
+    "shipped_days_ago": 48,
+    "carrier": "Northstar Logistics",
+    "tracking": "NS987654321",
+    "payment": "Visa ending 1111",
+    "items": [
+      {
+        "name": "Alpine Softshell Pants",
+        "sku": "NS-PNT-12",
+        "price": 110.0
+      }
+    ]
+  },
+  "ORD-1004": {
+    "order_id": "ORD-1004",
+    "customer": "Chris Nguyen",
+    "email": "chris.nguyen@example.com",
+    "status": "cancelled",
+    "delivered_days_ago": null,
+    "shipped_days_ago": null,
+    "carrier": null,
+    "tracking": null,
+    "payment": "Visa ending 2222",
+    "items": [
+      {
+        "name": "Ridge Merino Beanie",
+        "sku": "NS-HAT-02",
+        "price": 28.0
+      }
+    ]
+  }
+}
